@@ -1,0 +1,18 @@
+{
+  "name": "webpack-mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack test/test.js test/dist/testBundle.js --target node && mocha test/dist/testBundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.2.0",
+    "eslint-friendly-formatter": "^2.0.6",
+    "mocha": "^2.5.3",
+    "webpack": "^1.13.1"
+  }
+}
